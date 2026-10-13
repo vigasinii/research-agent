@@ -1,0 +1,202 @@
+[
+  {
+    "id": "tc_001",
+    "question": "When did Yuri Gagarin travel to space and how long did his mission last?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["Gagarin", "1961", "108"],
+    "should_answer": true,
+    "scenario": "answerable"
+  },
+  {
+    "id": "tc_002",
+    "question": "What was the name of the first artificial satellite and when was it launched?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["Sputnik", "1957"],
+    "should_answer": true,
+    "scenario": "answerable"
+  },
+  {
+    "id": "tc_003",
+    "question": "What propellants does SpaceX Starship use and why was methane chosen?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["methane", "oxygen"],
+    "should_answer": true,
+    "scenario": "answerable"
+  },
+  {
+    "id": "tc_004",
+    "question": "What did Cassini discover about Enceladus?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["geysers", "ocean"],
+    "should_answer": true,
+    "scenario": "answerable"
+  },
+  {
+    "id": "tc_005",
+    "question": "What is the James Webb Space Telescope's primary mirror size and where does it orbit?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["6.5", "L2"],
+    "should_answer": true,
+    "scenario": "answerable"
+  },
+  {
+    "id": "tc_006",
+    "question": "What is the population of Mars?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "unanswerable"
+  },
+  {
+    "id": "tc_007",
+    "question": "What is the price of a ticket on a commercial flight to the Moon in 2024?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "unanswerable"
+  },
+  {
+    "id": "tc_008",
+    "question": "Which country was the first to land a rover on Venus?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "unanswerable"
+  },
+  {
+    "id": "tc_009",
+    "question": "What is the exact chemical composition of Europa's subsurface ocean?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "unanswerable"
+  },
+  {
+    "id": "tc_010",
+    "question": "How many alien civilizations have been confirmed by SETI as of 2024?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "unanswerable"
+  },
+  {
+    "id": "tc_011",
+    "question": "How far has Voyager 1 traveled and when did it enter interstellar space?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["2012", "interstellar"],
+    "should_answer": true,
+    "scenario": "requires_expansion"
+  },
+  {
+    "id": "tc_012",
+    "question": "What findings did Opportunity rover make about ancient water on Mars?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["water", "sedimentary"],
+    "should_answer": true,
+    "scenario": "requires_expansion"
+  },
+  {
+    "id": "tc_013",
+    "question": "What did the New Horizons mission reveal when it reached its second target after Pluto?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["Arrokoth", "contact binary"],
+    "should_answer": true,
+    "scenario": "requires_expansion"
+  },
+  {
+    "id": "tc_014",
+    "question": "What was the longest single spaceflight record and who held it?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["437", "Polyakov"],
+    "should_answer": true,
+    "scenario": "requires_expansion"
+  },
+  {
+    "id": "tc_015",
+    "question": "What scientific instruments confirmed that Curiosity found signs Mars could have hosted microbial life?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["Sample Analysis", "organic"],
+    "should_answer": true,
+    "scenario": "requires_expansion"
+  },
+  {
+    "id": "tc_016",
+    "question": "How does a spacecraft detect planets orbiting distant stars by measuring starlight changes?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["transit", "dimming"],
+    "should_answer": true,
+    "scenario": "semantic_retrieval"
+  },
+  {
+    "id": "tc_017",
+    "question": "What technology allows rockets to be reused by landing them back after launch?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["landing", "booster"],
+    "should_answer": true,
+    "scenario": "semantic_retrieval"
+  },
+  {
+    "id": "tc_018",
+    "question": "Why does the corona of the Sun reach higher temperatures than its visible surface?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["corona", "million"],
+    "should_answer": true,
+    "scenario": "semantic_retrieval"
+  },
+  {
+    "id": "tc_019",
+    "question": "What chemical sign would indicate biological activity exists on a planet outside our solar system?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["biosignature", "oxygen"],
+    "should_answer": true,
+    "scenario": "semantic_retrieval"
+  },
+  {
+    "id": "tc_020",
+    "question": "What event confirmed Einstein's prediction that massive objects create ripples in the fabric of space?",
+    "expected_grounded": true,
+    "expected_answer_contains": ["gravitational waves", "LIGO"],
+    "should_answer": true,
+    "scenario": "semantic_retrieval"
+  },
+  {
+    "id": "tc_021",
+    "question": "What was the atmospheric composition found by Viking landers on Mars in 2001?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "adversarial"
+  },
+  {
+    "id": "tc_022",
+    "question": "How many confirmed exoplanets were discovered by the James Webb Space Telescope as of 2024?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "adversarial"
+  },
+  {
+    "id": "tc_023",
+    "question": "What year did Artemis III successfully land astronauts on the Moon?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "adversarial"
+  },
+  {
+    "id": "tc_024",
+    "question": "What is the mass of the Sagittarius A* black hole in kilograms?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "adversarial"
+  },
+  {
+    "id": "tc_025",
+    "question": "What specific chemicals were found in the Enceladus plume by the Cassini infrared spectrometer?",
+    "expected_grounded": false,
+    "expected_answer_contains": [],
+    "should_answer": false,
+    "scenario": "adversarial"
+  }
+]
